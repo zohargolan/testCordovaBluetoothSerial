@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h>  
 
-int neoPixelPin = 5;
-int bluetoothTx = 6;  // TX-O pin of bluetooth mate
+int neoPixelPin = 2;
+int bluetoothTx = 8;  // TX-O pin of bluetooth mate
 int bluetoothRx = 7;  // RX-I pin of bluetooth mate
 
 SoftwareSerial bluetooth(bluetoothTx, bluetoothRx);
